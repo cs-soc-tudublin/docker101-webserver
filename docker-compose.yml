@@ -1,6 +1,6 @@
 services:
   web:
-    image: ghcr.io/cs-soc-tudublin/docker101:latest
+    image: ghcr.io/cs-soc-tudublin/docker101-webserver:latest
     container_name: 'docker101'
     ports:
       - "8080:80"
